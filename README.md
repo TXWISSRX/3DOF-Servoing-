@@ -22,6 +22,8 @@ MoveIt is a widely-used software framework for motion planning, kinematics, and 
 
 Gazebo is a powerful physics-based robot simulator that allows us to create realistic environments and simulate the behavior of robots in a virtual world. It provides accurate physics simulations, sensor integration, and real-time rendering.
 
+
+
 ![Screenshot 2023-06-09 222832](https://github.com/TXWISSRX/3DOF-Servoing-/assets/119014917/b4522115-2b62-43c1-85cb-2728babb9c02)
 
 RViz, on the other hand, is a 3D visualization tool commonly used in robotics to display sensor data, robot models, and other relevant information. Together, Gazebo and RViz enable us to visualize and simulate the servoing process of our robotic arm.
