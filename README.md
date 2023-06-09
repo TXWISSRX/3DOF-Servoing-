@@ -50,6 +50,109 @@ We utilize RViz to visualize the simulated robotic arm, the target object, and a
 # Getting Started
 To get started with the project, please refer to the project's documentation. 
 
+To RUN this project:
+#### • catkin workspace:
+1. Update your Ubuntu packages
+
+```bash
+  $ sudo apt-get update  
+```
+
+
+    
+2. Go to home directory  
+```bash
+  $ cd ~/  
+```
+
+
+3. Create a catkin workspace folder along with src folder in it. I am creating a workspace with name “moveit_ws”.  
+```bash
+ $ mkdir --parents moveit_ws/src    
+```
+
+ 
+You can use any name for your workspace like “catkin_ws”.
+4. Go to the catkin workspace you created.
+```bash
+ $ cd moveit_ws   
+```
+
+
+5. Initialize the Catkin workspace
+```bash
+$ catkin init   
+```
+
+6. Go to the catkin workspace directory that you created if not already in it.
+```bash
+$ cd ~/moveit_ws  
+```
+
+
+7. Build your workspace.
+```bash
+$ catkin build
+```
+
+8. Source the “setup.bash” file automatically generated in your catkin workspace’s “devel” folder
+If you are already in your catkin workspace:
+
+```bash
+$ source devel/setup.bash
+```
+If you are not in your catkin workspace, then give full path:
+
+```bash
+$ source ~/moveit_ws/devel/setup.bash
+```
+
+#### •	Then copy the files in src into your workspace src 
+
+
+
+#### •	Launch your robot’s moveit launch file to load it moveit simulation with Rviz and Gazebo
+
+1. Open a terminal and execute the following command to start the ROS master.
+```bash
+$ roscore
+```
+
+After running this command, keep this terminal open.
+2. Open another terminal.
+3. Go to your workspace
+```bash
+$ cd ~/moveit_ws
+```
+
+4. Source the setup.bash file of your catkin work space.
+
+```bash
+$ source devel/setup.bash
+```
+5. Build the workspace if not built already after making the changes.
+
+```bash
+$ catkin build
+```
+6. Again, source the setup.bash file.
+
+```bash
+$ source devel/setup.bash
+```
+7. Launch the “arm_urdf.launch” file that we created in previous steps.
+
+```bash
+$ roslaunch your_Moveit_package_name moveit_launch_file.launch
+```
+In my case, it will be:
+```bash
+$ roslaunch movit_robot_arm_sim full_robot_arm_sim.launch 
+```
+
+
+
+
 
 # Conclusion
 The 3 DOF Servoing Simulation project combines the power of MoveIt, Gazebo, and RViz to provide a comprehensive simulation environment for studying and optimizing the servoing behavior of a robotic arm. By accurately planning poses and simulating the servoing process, we can evaluate the performance of our control algorithms and improve the efficiency and accuracy of our robotic systems.
