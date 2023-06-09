@@ -8,6 +8,9 @@ The goal of this project is to develop a simulation environment that allows for 
 To achieve our objectives, we utilize two main technologies: Solidworks, MoveIt and Gazebo with RViz. Let's take a closer look at each of them:
 
 # MoveIt
+
+![moveit_plugins](https://github.com/TXWISSRX/3DOF-Servoing-/assets/119014917/7c2d30ef-b8f2-44f2-9ce4-04f864a551cc)
+
 MoveIt is a widely-used software framework for motion planning, kinematics, and control of robotic systems. It provides an easy-to-use interface for defining robot models, specifying goals, and generating smooth and collision-free trajectories for the robot to follow. In our project, we leverage MoveIt's capabilities to plan the poses of our 3 DOF robotic arm.
 
 ![Screenshot 2023-05-30 193758](https://github.com/TXWISSRX/3DOF-Servoing-/assets/119014917/b439c8d6-d415-4d5b-aa3d-83c2c0f21882)
