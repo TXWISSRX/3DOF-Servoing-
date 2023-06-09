@@ -9,8 +9,7 @@ To achieve our objectives, we utilize two main technologies: Solidworks, MoveIt 
 
 # MoveIt
 
-![Screenshot 2023-06-09 223517](https://github.com/TXWISSRX/3DOF-Servoing-/assets/119014917/9b7d89a6-11fb-4bb2-97dc-e5d12d90312b)
-
+![hh](https://github.com/TXWISSRX/3DOF-Servoing-/assets/119014917/90fe3a1a-7282-4f3c-9954-d3cb73a8d54d)
 
 MoveIt is a widely-used software framework for motion planning, kinematics, and control of robotic systems. It provides an easy-to-use interface for defining robot models, specifying goals, and generating smooth and collision-free trajectories for the robot to follow. In our project, we leverage MoveIt's capabilities to plan the poses of our 3 DOF robotic arm.
 
